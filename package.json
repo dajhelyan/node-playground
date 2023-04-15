@@ -9,9 +9,13 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "start": "ts-node dir.ts"
+    "start": "ts-node events/eventEmitter.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuidv4": "^6.2.13"
+  }
 }
